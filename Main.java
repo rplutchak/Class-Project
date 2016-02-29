@@ -15,14 +15,16 @@ public class  Main
 public static void DisplayMenu()
 	{//opens DisplayMenu
 	
-	System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-	System.out.println("Please select your action");
-	System.out.println("Press 1 to search for an item");
-	System.out.println("Press 2 to add an item");
-	System.out.println("Press 3 to edit an existing item");
-	System.out.println("Press 4 to delete an item");
-	System.out.println("Press 0 to exit the program");
-	System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+     System.out.println("         XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+	System.out.println("         X                                   X");
+	System.out.println("         X Please select your action         X");
+	System.out.println("         X Press 1 to search for an item     X");
+	System.out.println("         X Press 2 to add an item            X");
+	System.out.println("         X Press 3 to edit an existing item  X");
+	System.out.println("         X Press 4 to delete an item         X");
+	System.out.println("         X Press 0 to exit the program       X");
+	System.out.println("         X                                   X");
+	System.out.println("         XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 	}//closes DisplayMenu
 
 public static void ProcessChoice(char pChoice)
